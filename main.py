@@ -2,7 +2,7 @@ import openai
 import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
-openai.api_key = "YOUR_OPENAI_API_KEY"
+openai.api_key = "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"
 
 def start(update, context):
     update.message.reply_text("Hi there! I'm a GPT chatbot. Ask me anything and I'll try my best to respond.")
@@ -14,7 +14,7 @@ def chat(update, context):
 
 def main():
     # Create the Updater and pass it your bot's token.
-    updater = Updater("YOUR_TELEGRAM_BOT_TOKEN", use_context=True)
+    updater = Updater("5902218782:AAGuN3K_re2XoGknwdIWPlWU0ZvwkPciFz4", use_context=True)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
